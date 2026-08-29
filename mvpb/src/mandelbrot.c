@@ -73,19 +73,12 @@ void escreverno_txt(double tempo, char *arquivo, int primeiraescrita){
     fclose(arq);
 }
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////
 
-
-int main(){
-    int largura = 800, altura = 800;
-    int maximodeinteracoes = 100;
+int *calcula_mandelbrot_serial(int largura, int altura, int maximodeinteracoes){
     int *resultado;
-    int primeiraescrita = 1;
-
-    struct timespec inicio, fim;
 
     resultado = malloc(largura * altura * sizeof(int));
-
-    clock_gettime(CLOCK_MONOTONIC, &inicio);
 
     for (int i = 0; i < altura; i++){
         for (int j = 0; j < largura; j++){
@@ -95,14 +88,63 @@ int main(){
             resultado[i * largura + j] = intensidade;
         }
     }
+
+    return resultado;
+}
+
+int *calcula_mandelbrot_openmp(int largura, int altura, int maximodeinteracoes){
+    int *resultado;
+
+    resultado = malloc(largura * altura * sizeof(int));
+
+    #pragma omp parallel for
+
+    for (int i = 0; i < altura; i++){
+        for (int j = 0; j < largura; j++){
+            int contador = calcula_pixel_serial(j, i, largura, altura, maximodeinteracoes);
+            int intensidade = (int)(((double)contador / maximodeinteracoes) * 255);
+
+            resultado[i * largura + j] = intensidade;
+        }
+    }
+
+    return resultado;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+int main(){
+    int largura = 400, altura = 400;
+    int maximodeinteracoes = 100;
+    int primeiraescrita = 1;
+
+    struct timespec inicio, fim;
+
+    clock_gettime(CLOCK_MONOTONIC, &inicio);
+    int *resultado = calcula_mandelbrot_serial(largura, altura, maximodeinteracoes);
     clock_gettime(CLOCK_MONOTONIC, &fim);
 
     double tempo_total = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1000000000.0;
 
     escreverno_pgm(resultado, "mandelbrot_mvpb_serial.pgm", largura, altura);
-
     escreverno_txt(tempo_total, "times.txt", primeiraescrita);
     
     free(resultado);
+
+
+
+    primeiraescrita = 0;
+
+    clock_gettime(CLOCK_MONOTONIC, &inicio);
+    resultado = calcula_mandelbrot_openmp(largura, altura, maximodeinteracoes);
+    clock_gettime(CLOCK_MONOTONIC, &fim);
+
+    tempo_total = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1000000000.0;
+
+    escreverno_pgm(resultado, "mandelbrot_mvpb_openmp.pgm", largura, altura);
+    escreverno_txt(tempo_total, "times.txt", primeiraescrita);
+    
+    free(resultado);
+
     return 0;
 }
