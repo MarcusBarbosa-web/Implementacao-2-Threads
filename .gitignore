@@ -1,0 +1,4 @@
+*.o
+mandelbrot
+mvpb/*.pgm
+mvpb/times.txt
