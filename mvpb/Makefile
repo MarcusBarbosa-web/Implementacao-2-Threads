@@ -1,16 +1,15 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -g3 -fopenmp -pthread
 
-all: src/output/mandelbrot
+all: mandelbrot
 
-src/output/mandelbrot: src/mandelbrot.c
-	mkdir -p src/output
-	$(CC) $(CFLAGS) src/mandelbrot.c -o src/output/mandelbrot
+mandelbrot: src/mandelbrot.c
+	$(CC) $(CFLAGS) src/mandelbrot.c -o mandelbrot
 
 clean:
-	rm -rf src/output
+	rm -f mandelbrot
 
-test: src/output/mandelbrot
-	cd src && ./output/mandelbrot 400 400 100 4
+test: mandelbrot
+	./mandelbrot 400 400 100 4
 
 .PHONY: all clean test
