@@ -13,6 +13,17 @@ typedef struct node{
     int *resultado;
 }node;
 
+typedef struct node2{
+    int largura;
+    int altura;
+    int maximodeinteracoes;
+    int *resultado;
+}node2;
+
+int proxima_linha = 0;
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+
+
 
 int calcula_pixel_serial(int j, int i, double largura, double altura, int maximodeinteracoes){
     double cr = -2.0 + (j/(double)largura) * 3.0;
@@ -178,6 +189,62 @@ int *calcula_mandelbrot_thread(int largura, int altura, int maximodeinteracoes, 
 }
 
 
+
+void *funcao_thread2(void *argumento){
+    node2 *novo = (node2*) argumento;
+
+    while(1){
+
+        pthread_mutex_lock(&mutex);
+
+        int linha_atual = proxima_linha;
+        proxima_linha++;
+
+        pthread_mutex_unlock(&mutex);
+
+        if (linha_atual >= novo->altura){
+            break;
+        }
+
+        for (int j = 0; j < novo->largura; j++){
+            int contador = calcula_pixel_serial(j, linha_atual, novo->largura, novo->altura, novo->maximodeinteracoes);
+            int intensidade = (int)(((double)contador / novo->maximodeinteracoes) * 255);
+
+            novo->resultado[linha_atual * novo->largura + j] = intensidade;
+        }
+
+    }
+    return NULL;
+}
+
+int *calcula_mandelbrot_thread2(int largura, int altura, int maximodeinteracoes, int numthreads){
+    proxima_linha = 0;
+    int *resultado = malloc(largura * altura * sizeof(int));
+
+    node2 *dados = malloc(numthreads * sizeof(node2));
+    pthread_t *threads = malloc(numthreads * sizeof(pthread_t));
+
+    for (int i = 0; i < numthreads; i++){
+
+        dados[i].largura = largura;
+        dados[i].altura = altura;
+        dados[i].maximodeinteracoes = maximodeinteracoes;
+        dados[i].resultado = resultado;
+
+        pthread_create(&threads[i], NULL, funcao_thread2, &dados[i]);
+    }
+
+    for (int i = 0; i < numthreads; i++){
+        pthread_join(threads[i], NULL);
+    }
+
+    free(dados);
+    free(threads);
+
+    return resultado;
+}
+
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
@@ -226,6 +293,21 @@ int main(){
     tempo_total = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1000000000.0;
 
     escreverno_pgm(resultado, "mandelbrot_mvpb_pthreads1.pgm", largura, altura);
+    escreverno_txt(tempo_total, "times.txt", primeiraescrita);
+    
+    free(resultado);
+
+
+
+    primeiraescrita = 0;
+
+    clock_gettime(CLOCK_MONOTONIC, &inicio);
+    resultado = calcula_mandelbrot_thread2(largura, altura, maximodeinteracoes, numthreads);
+    clock_gettime(CLOCK_MONOTONIC, &fim);
+
+    tempo_total = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1000000000.0;
+
+    escreverno_pgm(resultado, "mandelbrot_mvpb_pthreads2.pgm", largura, altura);
     escreverno_txt(tempo_total, "times.txt", primeiraescrita);
     
     free(resultado);
