@@ -24,6 +24,16 @@ int proxima_linha = 0;
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 
 
+void escreve_erronotxt(char *escreve){
+    FILE *novo = fopen("falha.txt", "a");
+
+    if (novo != NULL){
+        fprintf(novo, "%s\n", escreve);
+
+        fclose(novo);
+    }
+}
+
 
 int calcula_pixel_serial(int j, int i, double largura, double altura, int maximodeinteracoes){
     double cr = -2.0 + (j/(double)largura) * 3.0;
@@ -52,7 +62,7 @@ void escreverno_pgm(int *resultado, char *arquivo, int largura, int altura){
     FILE *arq = fopen(arquivo, "w");
 
     if (arq == NULL){
-        printf("Falha ao abrir o arquivo\n");
+        escreve_erronotxt("Falha ao abrir o arquivo .pgm");
         return;
     }
 
@@ -85,7 +95,7 @@ void escreverno_txt(double tempo, char *arquivo, int primeiraescrita){
     }
 
     if (arq == NULL){
-        printf("Falha ao abrir o arquivo\n");
+        escreve_erronotxt("Falha ao abrir o arquivo .txt");
         return;
     }
 
@@ -248,12 +258,68 @@ int *calcula_mandelbrot_thread2(int largura, int altura, int maximodeinteracoes,
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-int main(){
-    int largura = 400, altura = 400;
-    int maximodeinteracoes = 100;
-    int primeiraescrita = 1;
-    int numthreads = 4;
+int main(int argc, char *argv[]){
+    if(argc != 5){
+        escreve_erronotxt("Numero de parametros incorretos passados");
+        return 1;
+    }
 
+    char *entradainvalida;
+//////
+    long larguralong = strtol(argv[1], &entradainvalida, 10);
+
+    if (*entradainvalida != '\0'){
+        escreve_erronotxt("Entrada invalidada nos argumentos da largura");
+        return 1;
+    }
+    if (larguralong <= 0){
+        escreve_erronotxt("Numero da largura incorreto");
+        return 1;
+    }
+
+    int largura = (int) larguralong;
+//////
+    long alturalong = strtol(argv[2], &entradainvalida, 10);
+
+    if (*entradainvalida != '\0'){
+        escreve_erronotxt("Entrada invalidada nos argumentos da altura");
+        return 1;
+    }
+    if (alturalong <= 0){
+        escreve_erronotxt("Numero da altura incorreto");
+        return 1;
+    }
+
+    int altura = (int) alturalong;
+//////
+    long maximodeinteracoeslong = strtol(argv[3], &entradainvalida, 10);
+
+    if (*entradainvalida != '\0'){
+        escreve_erronotxt("Entrada invalidada nos argumentos de maximo de interacoes");
+        return 1;
+    }
+    if (maximodeinteracoeslong <= 0){
+        escreve_erronotxt("Numero maximo de interacoes incorreto");
+        return 1;
+    }
+
+    int maximodeinteracoes = (int) maximodeinteracoeslong;
+//////
+    long numthreadslong = strtol(argv[4], &entradainvalida, 10);
+
+    if (*entradainvalida != '\0'){
+        escreve_erronotxt("Entrada invalidada nos argumentos do numero de threads");
+        return 1;
+    }
+    if (numthreadslong <= 0){
+        escreve_erronotxt("Numero de threads incorreto");
+        return 1;
+    }
+
+    int numthreads = (int) numthreadslong;
+//////
+
+    int primeiraescrita = 1;
     struct timespec inicio, fim;
 
     clock_gettime(CLOCK_MONOTONIC, &inicio);
