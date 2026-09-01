@@ -864,4 +864,36 @@ gcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o src/output/mandelbro
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make test
 [?2004lcd src && ./output/mandelbrot 400 400 100 4
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make test[K clean[2Pgit pushcommit -m "5 rubrica, Erros + Outras situações"add .[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .make test[K clean[2Pgit pushcommit -m "5 rubrica, Erros + Outras situações"push[Kcommit -m "5 rubrica, Erros + Outras situações"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1
+[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .make test[K clean[2Pgit pushcommit -m "5 rubrica, Erros + Outras situações"push[Kcommit -m "5 rubrica, Erros + Outras situações"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"M"a"k"e"f"i"l"e"[C[1P[1@6
+[?2004l[main fa4dee8] 6 rubrica, Makefile
+ 7 files changed, 1630 insertions(+), 1 deletion(-)
+ create mode 100644 mvpb/src/mandelbrot_mvpb_openmp.pgm
+ create mode 100644 mvpb/src/mandelbrot_mvpb_pthreads1.pgm
+ create mode 100644 mvpb/src/mandelbrot_mvpb_pthreads2.pgm
+ create mode 100644 mvpb/src/mandelbrot_mvpb_serial.pgm
+ create mode 100644 mvpb/src/times.txt
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git commit -m "6 rubrica, Makefile"add .[Kmake test[K clean[2Pgit push
+[?2004lEnumerating objects: 13, done.
+Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 20.07 KiB | 2.01 MiB/s, done.
+Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git
+   5974ae9..fa4dee8  main -> main
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ mkae[K[K[Kake clean
+[?2004lrm -f mandelbrot
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make
+[?2004lgcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o mandelbrot
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make test
+[?2004l./mandelbrot 400 400 100 4
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ls[K[Kls
+[?2004lMakefile        falha.txt   [0m[01;35mmandelbrot_mvpb_openmp.pgm[0m     [01;35mmandelbrot_mvpb_pthreads2.pgm[0m  [01;34msrc[0m
+evidencias.log  [01;32mmandelbrot[0m  [01;35mmandelbrot_mvpb_pthreads1.pgm[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m     times.txt
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd [7mImplementacao-2-Threads[27mImplementacao-2-Threads
+[?2004lbash: cd: Implementacao-2-Threads: No such file or directory
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .
+[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .cd Implementacao-2-Threadsls[Kmake test[K clean[2Pgit pushcommit -m "6 rubrica, Makefile"add .[Kcommit -m "6 rubrica, Makefile" "[1P"," "c"o"r"r"e"c"a"o"
+[?2004l[main 56be3f7] 6 rubrica, Makefile, correcao
+ 7 files changed,

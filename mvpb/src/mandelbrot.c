@@ -3,6 +3,7 @@
 #include <string.h>
 #include <time.h>
 #include <pthread.h>
+#include <limits.h>
 
 typedef struct node{
     int linhainicio;
@@ -109,7 +110,11 @@ void escreverno_txt(double tempo, char *arquivo, int primeiraescrita){
 int *calcula_mandelbrot_serial(int largura, int altura, int maximodeinteracoes){
     int *resultado;
 
-    resultado = malloc(largura * altura * sizeof(int));
+    resultado = malloc((size_t)largura * altura * sizeof(int));
+    if(resultado == NULL){
+        escreve_erronotxt("Falha em alocar memoria");
+        return NULL;   
+    }
 
     for (int i = 0; i < altura; i++){
         for (int j = 0; j < largura; j++){
@@ -126,7 +131,11 @@ int *calcula_mandelbrot_serial(int largura, int altura, int maximodeinteracoes){
 int *calcula_mandelbrot_openmp(int largura, int altura, int maximodeinteracoes){
     int *resultado;
 
-    resultado = malloc(largura * altura * sizeof(int));
+    resultado = malloc((size_t)largura * altura * sizeof(int));
+    if(resultado == NULL){
+        escreve_erronotxt("Falha em alocar memoria");
+        return NULL;   
+    }
 
     #pragma omp parallel for
 
@@ -164,13 +173,29 @@ void *funcao_thread(void *argumento){
 }
 
 int *calcula_mandelbrot_thread(int largura, int altura, int maximodeinteracoes, int numthreads){
-    int *resultado = malloc(largura * altura * sizeof(int));
+    int *resultado = malloc((size_t)largura * altura * sizeof(int));
+    if(resultado == NULL){
+        escreve_erronotxt("Falha em alocar memoria");
+        return NULL;   
+    }
 
     int linhasthread = altura/numthreads;
     int linhassobra = altura % numthreads;
 
     node *dados = malloc(numthreads * sizeof(node));
+    if(dados == NULL){
+        escreve_erronotxt("Falha em alocar memoria");
+        free(resultado);
+        return NULL;   
+    }
+
     pthread_t *threads = malloc(numthreads * sizeof(pthread_t));
+    if(threads == NULL){
+        escreve_erronotxt("Falha em alocar memoria");
+        free(resultado);
+        free(dados);
+        return NULL;   
+    }
 
     for (int i = 0; i < numthreads; i++){
         dados[i].linhainicio = i * linhasthread;
@@ -185,7 +210,19 @@ int *calcula_mandelbrot_thread(int largura, int altura, int maximodeinteracoes, 
         dados[i].maximodeinteracoes = maximodeinteracoes;
         dados[i].resultado = resultado;
 
-        pthread_create(&threads[i], NULL, funcao_thread, &dados[i]);
+        int resultado_create = pthread_create(&threads[i], NULL, funcao_thread, &dados[i]);
+        if (resultado_create != 0){
+            escreve_erronotxt("Falha na criacao de um thread");
+
+            for (int k = 0; k < i; k++){
+                pthread_join(threads[k], NULL);
+            }
+
+            free(resultado);
+            free(dados);
+            free(threads);
+            return NULL;
+        } 
     }
 
     for (int i = 0; i < numthreads; i++){
@@ -197,6 +234,8 @@ int *calcula_mandelbrot_thread(int largura, int altura, int maximodeinteracoes, 
 
     return resultado;
 }
+
+
 
 
 
@@ -229,10 +268,27 @@ void *funcao_thread2(void *argumento){
 
 int *calcula_mandelbrot_thread2(int largura, int altura, int maximodeinteracoes, int numthreads){
     proxima_linha = 0;
-    int *resultado = malloc(largura * altura * sizeof(int));
+
+    int *resultado = malloc((size_t)largura * altura * sizeof(int));
+    if(resultado == NULL){
+        escreve_erronotxt("Falha em alocar memoria");
+        return NULL;   
+    }
 
     node2 *dados = malloc(numthreads * sizeof(node2));
+    if(dados == NULL){
+        escreve_erronotxt("Falha em alocar memoria");
+        free(resultado);
+        return NULL;   
+    }
+
     pthread_t *threads = malloc(numthreads * sizeof(pthread_t));
+    if(threads == NULL){
+        escreve_erronotxt("Falha em alocar memoria");
+        free(resultado);
+        free(dados);
+        return NULL;   
+    }
 
     for (int i = 0; i < numthreads; i++){
 
@@ -241,7 +297,19 @@ int *calcula_mandelbrot_thread2(int largura, int altura, int maximodeinteracoes,
         dados[i].maximodeinteracoes = maximodeinteracoes;
         dados[i].resultado = resultado;
 
-        pthread_create(&threads[i], NULL, funcao_thread2, &dados[i]);
+        int resultado_create = pthread_create(&threads[i], NULL, funcao_thread2, &dados[i]);
+        if (resultado_create != 0){
+            escreve_erronotxt("Falha na criacao de um thread");
+
+            for (int k = 0; k < i; k++){
+                pthread_join(threads[k], NULL);
+            }
+
+            free(resultado);
+            free(dados);
+            free(threads);
+            return NULL;
+        }
     }
 
     for (int i = 0; i < numthreads; i++){
@@ -272,7 +340,7 @@ int main(int argc, char *argv[]){
         escreve_erronotxt("Entrada invalidada nos argumentos da largura");
         return 1;
     }
-    if (larguralong <= 0){
+    if (larguralong <= 0 || larguralong > INT_MAX){
         escreve_erronotxt("Numero da largura incorreto");
         return 1;
     }
@@ -285,7 +353,7 @@ int main(int argc, char *argv[]){
         escreve_erronotxt("Entrada invalidada nos argumentos da altura");
         return 1;
     }
-    if (alturalong <= 0){
+    if (alturalong <= 0 || alturalong > INT_MAX){
         escreve_erronotxt("Numero da altura incorreto");
         return 1;
     }
@@ -298,7 +366,7 @@ int main(int argc, char *argv[]){
         escreve_erronotxt("Entrada invalidada nos argumentos de maximo de interacoes");
         return 1;
     }
-    if (maximodeinteracoeslong <= 0){
+    if (maximodeinteracoeslong <= 0 || maximodeinteracoeslong > INT_MAX){
         escreve_erronotxt("Numero maximo de interacoes incorreto");
         return 1;
     }
@@ -311,7 +379,7 @@ int main(int argc, char *argv[]){
         escreve_erronotxt("Entrada invalidada nos argumentos do numero de threads");
         return 1;
     }
-    if (numthreadslong <= 0){
+    if (numthreadslong <= 0 || numthreadslong > INT_MAX){
         escreve_erronotxt("Numero de threads incorreto");
         return 1;
     }
@@ -324,6 +392,9 @@ int main(int argc, char *argv[]){
 
     clock_gettime(CLOCK_MONOTONIC, &inicio);
     int *resultado = calcula_mandelbrot_serial(largura, altura, maximodeinteracoes);
+    if (resultado == NULL){
+        return 1;
+    }
     clock_gettime(CLOCK_MONOTONIC, &fim);
 
     double tempo_total = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1000000000.0;
@@ -339,6 +410,9 @@ int main(int argc, char *argv[]){
 
     clock_gettime(CLOCK_MONOTONIC, &inicio);
     resultado = calcula_mandelbrot_openmp(largura, altura, maximodeinteracoes);
+    if (resultado == NULL){
+        return 1;
+    }
     clock_gettime(CLOCK_MONOTONIC, &fim);
 
     tempo_total = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1000000000.0;
@@ -354,6 +428,9 @@ int main(int argc, char *argv[]){
 
     clock_gettime(CLOCK_MONOTONIC, &inicio);
     resultado = calcula_mandelbrot_thread(largura, altura, maximodeinteracoes, numthreads);
+    if (resultado == NULL){
+        return 1;
+    }
     clock_gettime(CLOCK_MONOTONIC, &fim);
 
     tempo_total = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1000000000.0;
@@ -369,6 +446,9 @@ int main(int argc, char *argv[]){
 
     clock_gettime(CLOCK_MONOTONIC, &inicio);
     resultado = calcula_mandelbrot_thread2(largura, altura, maximodeinteracoes, numthreads);
+    if (resultado == NULL){
+        return 1;
+    }
     clock_gettime(CLOCK_MONOTONIC, &fim);
 
     tempo_total = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1000000000.0;
