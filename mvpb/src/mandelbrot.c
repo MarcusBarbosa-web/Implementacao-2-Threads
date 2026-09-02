@@ -239,6 +239,32 @@ int *calcula_mandelbrot_thread(int largura, int altura, int maximodeinteracoes, 
 
 
 
+int cardioide_ou_bulbo(double cr, double ci){
+    double q = (cr - 0.25) * (cr - 0.25) + ci * ci;
+
+    if (q * (q + (cr - 0.25)) <= 0.25 * ci * ci){
+        return 1;
+    }
+
+    if ((cr + 1) * (cr + 1) + ci * ci <= 0.0625){
+        return 1;
+    }
+
+    return 0;
+}
+
+int calcula_pixel_threads2(int j, int i, double largura, double altura, int maximodeinteracoes){
+    double cr = -2.0 + (j/(double)largura) * 3.0;
+    double ci = -1.5 + (i/(double)altura) * 3.0;
+
+    if (cardioide_ou_bulbo(cr, ci)){
+        return maximodeinteracoes;
+    }
+
+    return calcula_pixel_serial(j, i, largura, altura, maximodeinteracoes);
+}
+
+
 void *funcao_thread2(void *argumento){
     node2 *novo = (node2*) argumento;
 
@@ -256,7 +282,7 @@ void *funcao_thread2(void *argumento){
         }
 
         for (int j = 0; j < novo->largura; j++){
-            int contador = calcula_pixel_serial(j, linha_atual, novo->largura, novo->altura, novo->maximodeinteracoes);
+            int contador = calcula_pixel_threads2(j, linha_atual, novo->largura, novo->altura, novo->maximodeinteracoes);
             int intensidade = (int)(((double)contador / novo->maximodeinteracoes) * 255);
 
             novo->resultado[linha_atual * novo->largura + j] = intensidade;

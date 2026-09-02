@@ -7,7 +7,7 @@ mandelbrot: src/mandelbrot.c
 	$(CC) $(CFLAGS) src/mandelbrot.c -o mandelbrot
 
 clean:
-	rm -f mandelbrot
+	rm -f mandelbrot mandelbrot_*.pgm times.txt falha.txt
 
 test: mandelbrot
 	./mandelbrot 400 400 100 4
