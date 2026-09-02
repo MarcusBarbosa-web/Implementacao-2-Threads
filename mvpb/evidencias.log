@@ -1,13 +1,18 @@
 Script started on 2026-08-29 11:05:19-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ date
-[?2004lSat Aug 29 11:05:26 -03 2026
+[?2004l
+Sat Aug 29 11:05:26 -03 2026
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ wha[Koami
-[?2004lmarcus
+[?2004l
+marcus
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwd
-[?2004l/home/marcus/Implementacao-2-Threads/mvpb
+[?2004l
+/home/marcus/Implementacao-2-Threads/mvpb
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ code .
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mgcc -o mandelbrot src/mandelbrot.c[27mgcc -o mandelbrot src/mandelbrot.c
-[?2004l[01m[Ksrc/mandelbrot.c:77:1:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mgcc -o mandelbrot src/mandelbrot.c[27mgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[01m[Ksrc/mandelbrot.c:77:1:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
    77 | [01;31m[K\[m[K\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
       | [01;31m[K^[m[K
 [01m[Ksrc/mandelbrot.c:77:2:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
@@ -526,7 +531,8 @@ Script started on 2026-08-29 11:05:19-03:00 [TERM="xterm-256color" TTY="/dev/pts
       |                                                                                                               
 
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mgcc -o mandelbrot src/mandelbrot.c[27mgcc -o mandelbrot src/mandelbrot.c
-[?2004l[01m[Ksrc/mandelbrot.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Ksrc/mandelbrot.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Ksrc/mandelbrot.c:90:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K<[m[K’ token
    90 |     for (int i = 0, i [01;31m[K<[m[K altura, i++){
       |                       [01;31m[K^[m[K
@@ -537,7 +543,8 @@ Script started on 2026-08-29 11:05:19-03:00 [TERM="xterm-256color" TTY="/dev/pts
   108 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mgcc -o mandelbrot src/mandelbrot.c[27mgcc -o mandelbrot src/mandelbrot.c
-[?2004l[01m[Ksrc/mandelbrot.c:[m[K In function ‘[01m[Kmain[m[K’:
+[?2004l
+[01m[Ksrc/mandelbrot.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Ksrc/mandelbrot.c:90:23:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K=[m[K’, ‘[01m[K,[m[K’, ‘[01m[K;[m[K’, ‘[01m[Kasm[m[K’ or ‘[01m[K__attribute__[m[K’ before ‘[01m[K<=[m[K’ token
    90 |     for (int i = 0, i [01;31m[K<=[m[K altura, i++){
       |                       [01;31m[K^~[m[K
@@ -548,13 +555,19 @@ Script started on 2026-08-29 11:05:19-03:00 [TERM="xterm-256color" TTY="/dev/pts
   108 | [01;31m[K}[m[K
       | [01;31m[K^[m[K
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mgcc -o mandelbrot src/mandelbrot.c[27mgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot[27m./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cat times.txt
-[?2004l0.161783
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot[27m./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cat times.txt
+[?2004l
+0.161783
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ head -c 100 ma[K[Kmandelbo[Krot [K_mvpb_sr[Kerail[K[K[Kial.pgm
-[?2004l2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcd ~/Implementacao-2-Threads[27m[H[2J]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcd ~/Implementacao-2-Threads[27mcd ~/Implementacao-2-Threads
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git status
-[?2004lOn branch main
+[?2004l
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcd ~/Implementacao-2-Threads[27m[H[2J]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcd ~/Implementacao-2-Threads[27mcd ~/Implementacao-2-Threads
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git status
+[?2004l
+On branch main
 
 No commits yet
 
@@ -565,8 +578,10 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit add .gitignore mvpb/src/mandelbrot.c[27mgit add .gitignore mvpb/src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit status[27mgit status
-[?2004lOn branch main
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit status[27mgit status
+[?2004l
+On branch main
 
 No commits yet
 
@@ -581,31 +596,47 @@ Untracked files:
 	[31mmvpb/evidencias.log[m
 
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git statusadd .gitignore mvpb/src/mandelbrot.cstatus[Kcd ~/Implementacao-2-Threads[18Pgit statuscd ~/Implementacao-2-Threadshead -c 100 mandelbrot_mvpb_serial.pgm[10Pcd ~/Implementacao-2-Threadshead -c 100 mandelbrot_mvpb_serial.pgm[25Pcat times.txt[1P./mandelbrotgcc -o mandelbrot src/mandelbrot.c
-[?2004l[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Ksrc/mandelbrot.c: No such file or directory
+[?2004l
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Ksrc/mandelbrot.c: No such file or directory
 compilation terminated.
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ ls
-[?2004l[0m[01;34mmvpb[0m
+[?2004l
+[0m[01;34mmvpb[0m
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd mvpb
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpbls[Kgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit status[Kadd .gitignore mvpb/src/mandelbrot.cstatus[Kcd ~/Implementacao-2-Threadshead -c 100 mandelbrot_mvpb_serial.pgm[25Pcat times.txt[1P./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git commit -m ""r"u"b"r"i"c"a" "1"[1P"1" "[1P":" "[7mExecução serial[27m"Execução serial"
-[?2004l[main (root-commit) cf9ae18] rubrica 1: Execução serial
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpbls[Kgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit status[Kadd .gitignore mvpb/src/mandelbrot.cstatus[Kcd ~/Implementacao-2-Threadshead -c 100 mandelbrot_mvpb_serial.pgm[25Pcat times.txt[1P./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git commit -m ""r"u"b"r"i"c"a" "1"[1P"1" "[1P":" "[7mExecução serial[27m"Execução serial"
+[?2004l
+[main (root-commit) cf9ae18] rubrica 1: Execução serial
  2 files changed, 112 insertions(+)
  create mode 100644 .gitignore
  create mode 100644 mvpb/src/mandelbrot.c
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git push -u origi[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls[K[Kls
-[?2004lMakefile  evidencias.log  [0m[01;32mmandelbrot[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m  [01;34msrc[0m  times.txt
+[?2004l
+Makefile  evidencias.log  [0m[01;32mmandelbrot[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m  [01;34msrc[0m  times.txt
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd
-[?2004l[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ ls im[K[K[K[K[Kcd
-[?2004l[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ ls
-[?2004l[0m[01;34mImplementacao-1-Processos[0m  [01;34mImplementacao-2-Threads[0m  [01;34mProjeto_Pif_JOGO[0m  [01;34mraylib[0m
-[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ [7mImplementacao-2-Threads[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
-[?2004lImplementacao-2-Threads: command not found
-[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ ls
-[?2004l[0m[01;34mmvpb[0m
+[?2004l
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ ls im[K[K[K[K[Kcd
+[?2004l
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ ls
+[?2004l
+[0m[01;34mImplementacao-1-Processos[0m  [01;34mImplementacao-2-Threads[0m  [01;34mProjeto_Pif_JOGO[0m  [01;34mraylib[0m
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ [7mImplementacao-2-Threads[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
+[?2004l
+Implementacao-2-Threads: command not found
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ ls
+[?2004l
+[0m[01;34mmvpb[0m
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ lscd Implementacao-2-Threads[3PImplementacao-2-Threadsls[Kcdlsgit commit -m "rubrica 1: Execução serial"./mandelbrot[Kgit commit -m "rubrica 1: Execução serial"
-[?2004lOn branch main
+[?2004l
+On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
@@ -618,7 +649,8 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git commit -m "rubrica 1: Execução serial"ls[Kgit commit -m "rubrica 1: Execução serial"
-[?2004lOn branch main
+[?2004l
+On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
@@ -631,25 +663,50 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mcd ~/Implementacao-2-Threads[27mcd ~/Implementacao-2-Threads
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit log --oneline[27mgit log --oneline
-[?2004l[?1h=[33mcf9ae18[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m rubrica 1: Execução serial[m
-[K[?1l>[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit branch[27mgit branch
-[?2004l[?1h=* [32mmain[m[m
-[K[?1l>[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit remote -v[27mgit remote -v
-[?2004lorigin	https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git (fetch)
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit log --oneline[27mgit log --oneline
+[?2004l
+[?1h=
+[33mcf9ae18[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m rubrica 1: Execução serial[m
+
+[K[?1l>[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit branch[27mgit branch
+[?2004l
+[?1h=
+* [32mmain[m[m
+
+[K[?1l>[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit remote -v[27mgit remote -v
+[?2004l
+origin	https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git (fetch)
 origin	https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git (push)
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mgit push -u origin main[27mgit push -u origin main
-[?2004lEnumerating objects: 6, done.
-Counting objects:  16% (1/6)Counting objects:  33% (2/6)Counting objects:  50% (3/6)Counting objects:  66% (4/6)Counting objects:  83% (5/6)Counting objects: 100% (6/6)Counting objects: 100% (6/6), done.
+[?2004l
+Enumerating objects: 6, done.
+Counting objects:  16% (1/6)
+Counting objects:  33% (2/6)
+Counting objects:  50% (3/6)
+Counting objects:  66% (4/6)
+Counting objects:  83% (5/6)
+Counting objects: 100% (6/6)
+Counting objects: 100% (6/6), done.
 Delta compression using up to 8 threads
-Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
-Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.21 KiB | 1.21 MiB/s, done.
+Compressing objects:  33% (1/3)
+Compressing objects:  66% (2/3)
+Compressing objects: 100% (3/3)
+Compressing objects: 100% (3/3), done.
+Writing objects:  16% (1/6)
+Writing objects:  33% (2/6)
+Writing objects:  50% (3/6)
+Writing objects:  66% (4/6)
+Writing objects:  83% (5/6)
+Writing objects: 100% (6/6)
+Writing objects: 100% (6/6), 1.21 KiB | 1.21 MiB/s, done.
 Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git push -u origin main[Kgit push -u origin main[10Premote -v[3Pbranchlog --onelinecd ~/Implementacao-2-Threadsgit commit -m "rubrica 1: Execução serial"[C[1P[1@,
-[?2004lOn branch main
+[?2004l
+On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
@@ -664,33 +721,59 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [H[2J]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git commit -m "rubrica 1, Execução serial"[19Ppush -u origin maincommit -m "rubrica 1, Execução serial"[19Ppush -u origin main[10Premote -v[K[K[K[K[K[K[K[K[K[K[K[K[Kls
-[?2004l[0m[01;34mmvpb[0m
+[?2004l
+[0m[01;34mmvpb[0m
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd mvpb
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpbls[Kgit commit -m "rubrica 1, Execução serial"[19Ppush -u origin main[10Premote -v[3Pbranchlog --onelinecd ~/Implementacao-2-Threadsgit commit -m "rubrica 1: Execução serial"ls[Kcd Implementacao-2-Threads[3PImplementacao-2-Threadsls[Kcdlsgit commit -m "rubrica 1: Execução serial"./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgit commit -m "rubrica 1, Execução serial"[19Ppush -u origin main[10Premote -v[3Pbranchlog --onelinecd ~/Implementacao-2-Threadsgit commit -m "rubrica 1: Execução serial"ls[Kcd Implementacao-2-Threads[3PImplementacao-2-Threadsls[Kcdlsgit commit -m "rubrica 1: Execução serial"./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot[K[7mgcc -fopenmp -o mandelbrot src/mandelbrot.c[27mgcc -fopenmp -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ls
-[?2004lMakefile  evidencias.log  [0m[01;32mmandelbrot[0m  [01;35mmandelbrot_mvpb_openmp.pgm[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m  [01;34msrc[0m  times.txt
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpbls[Kgit commit -m "rubrica 1, Execução serial"[19Ppush -u origin main[10Premote -v[3Pbranchlog --onelinecd ~/Implementacao-2-Threadsgit commit -m "rubrica 1: Execução serial"ls[Kcd Implementacao-2-Threads[3PImplementacao-2-Threadsls[Kcdlsgit commit -m "rubrica 1: Execução serial"./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgit commit -m "rubrica 1, Execução serial"[19Ppush -u origin main[10Premote -v[3Pbranchlog --onelinecd ~/Implementacao-2-Threadsgit commit -m "rubrica 1: Execução serial"ls[Kcd Implementacao-2-Threads[3PImplementacao-2-Threadsls[Kcdlsgit commit -m "rubrica 1: Execução serial"./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot[K[7mgcc -fopenmp -o mandelbrot src/mandelbrot.c[27mgcc -fopenmp -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ls
+[?2004l
+Makefile  evidencias.log  [0m[01;32mmandelbrot[0m  [01;35mmandelbrot_mvpb_openmp.pgm[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m  [01;34msrc[0m  times.txt
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd
-[?2004l[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ ls [K[K[Kcd [7mImplementacao-2-Threads[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ ls
-[?2004l[0m[01;34mmvpb[0m
+[?2004l
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ ls [K[K[Kcd [7mImplementacao-2-Threads[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ ls
+[?2004l
+[0m[01;34mmvpb[0m
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git status
-[?2004lOn branch main
+[?2004l
+On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
@@ -705,167 +788,405 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git add .
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git [K[K[K[Kgit add .statusls[Kcd Implementacao-2-Threads[Klsdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgit commit -m "rubrica 1, Execução serial"[19Ppush -u origin maincommit -m "rubrica 1, Execução serial"[1P[1P[1@2[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[7mExecução OpenMP [27m"Execução OpenMP "
-[?2004l[main 98af8a1] 2 rubrica, Execução OpenMP
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git [K[K[K[Kgit add .statusls[Kcd Implementacao-2-Threads[Klsdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgit commit -m "rubrica 1, Execução serial"[19Ppush -u origin maincommit -m "rubrica 1, Execução serial"[1P[1P[1@2[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[7mExecução OpenMP [27m"Execução OpenMP "
+[?2004l
+[main 98af8a1] 2 rubrica, Execução OpenMP
  3 files changed, 735 insertions(+), 7 deletions(-)
  create mode 100644 mvpb/Makefile
  create mode 100644 mvpb/evidencias.log
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git push
-[?2004lEnumerating objects: 11, done.
-Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+[?2004l
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)
+Counting objects:  18% (2/11)
+Counting objects:  27% (3/11)
+Counting objects:  36% (4/11)
+Counting objects:  45% (5/11)
+Counting objects:  54% (6/11)
+Counting objects:  63% (7/11)
+Counting objects:  72% (8/11)
+Counting objects:  81% (9/11)
+Counting objects:  90% (10/11)
+Counting objects: 100% (11/11)
+Counting objects: 100% (11/11), done.
 Delta compression using up to 8 threads
-Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
-Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 4.63 KiB | 1.16 MiB/s, done.
+Compressing objects:  20% (1/5)
+Compressing objects:  40% (2/5)
+Compressing objects:  60% (3/5)
+Compressing objects:  80% (4/5)
+Compressing objects: 100% (5/5)
+Compressing objects: 100% (5/5), done.
+Writing objects:  14% (1/7)
+Writing objects:  28% (2/7)
+Writing objects:  42% (3/7)
+Writing objects:  57% (4/7)
+Writing objects:  71% (5/7)
+Writing objects:  85% (6/7)
+Writing objects: 100% (7/7)
+Writing objects: 100% (7/7), 4.63 KiB | 1.16 MiB/s, done.
 Total 7 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: Resolving deltas:   0% (0/1)[K
+remote: Resolving deltas: 100% (1/1)[K
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
 To https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git
    cf9ae18..98af8a1  main -> main
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git pushcommit -m "2 rubrica, Execução OpenMP "add .[Kstatusls[Kcd Implementacao-2-Threads[Klsdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
-[?2004l[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Ksrc/mandelbrot.c: No such file or directory
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git pushcommit -m "2 rubrica, Execução OpenMP "add .[Kstatusls[Kcd Implementacao-2-Threads[Klsdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Ksrc/mandelbrot.c: No such file or directory
 compilation terminated.
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ ls
-[?2004l[0m[01;34mmvpb[0m
+[?2004l
+[0m[01;34mmvpb[0m
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd mvpb
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpbls[Kgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcommit -m "2 rubrica, Execução OpenMP "add .[Kstatusls[Kcd Implementacao-2-Threads[K Implementacao-2-Threads[Klsdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
-[?2004lFloating point exception (core dumped)
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kcd mvpbgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcc -o mandelbrot src/mandelbrot.cit push[Kcc -o mandelbrot src/mandelbrot.cls[Kcd mvpbgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcommit -m "2 rubrica, Execução OpenMP "add .[Kstatusls[Kcd Implementacao-2-Threads[Klsdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004lFloating point exception (core dumped)
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpbls[Kgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcommit -m "2 rubrica, Execução OpenMP "add .[Kstatusls[Kcd Implementacao-2-Threads[K Implementacao-2-Threads[Klsdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
+[?2004l
+Floating point exception (core dumped)
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kcd mvpbgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcc -o mandelbrot src/mandelbrot.cit push[Kcc -o mandelbrot src/mandelbrot.cls[Kcd mvpbgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcommit -m "2 rubrica, Execução OpenMP "add .[Kstatusls[Kcd Implementacao-2-Threads[Klsdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+Floating point exception (core dumped)
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ diff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcommit -m "2 rubrica, Execução OpenMP "add .[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .diff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcommit -m "2 rubrica, Execução OpenMP "[1P[1@3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P "[1P "[1P "[1P "[1P "[1P "[1P"[1P "[1P "[1P "[C[1P"[1P"[1P"[1P"[1P"[1P"[7mExecução Pthreads 1 [27m"Execução Pthreads 1 "
-[?2004l[main 137838c] 3 rubrica, Execução Pthreads 1
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ diff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcommit -m "2 rubrica, Execução OpenMP "add .[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .diff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.ccd mvpb[Kls[Kgcc -o mandelbrot src/mandelbrot.cit push[Kcommit -m "2 rubrica, Execução OpenMP "[1P[1@3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P "[1P "[1P "[1P "[1P "[1P "[1P"[1P "[1P "[1P "[C[1P"[1P"[1P"[1P"[1P"[1P"[7mExecução Pthreads 1 [27m"Execução Pthreads 1 "
+[?2004l
+[main 137838c] 3 rubrica, Execução Pthreads 1
  2 files changed, 144 insertions(+), 1 deletion(-)
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gi[K[Kgit commit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopScript started on 2026-08-30 13:24:04-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gi[K[Kgit commit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopScript started on 2026-08-30 13:24:04-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ date
-[?2004lSun Aug 30 13:24:10 -03 2026
+[?2004l
+Sun Aug 30 13:24:10 -03 2026
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ whoami
-[?2004lmarcus
+[?2004l
+marcus
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwd
-[?2004l/home/marcus/Implementacao-2-Threads/mvpb
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [H[2J]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwdwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot[K./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ diff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K[K[K[K[K[K[K[K[K[K[K[K[Kls[Kcd[K[K[Kcd [7mImplementacao-2-Threads[27mImplementacao-2-Threads
-[?2004lbash: cd: Implementacao-2-Threads: No such file or directory
+[?2004l
+/home/marcus/Implementacao-2-Threads/mvpb
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [H[2J]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwdwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrot[K./mandelbrotgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ diff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[K[K[K[K[K[K[K[K[K[K[K[K[Kls[Kcd[K[K[Kcd [7mImplementacao-2-Threads[27mImplementacao-2-Threads
+[?2004l
+bash: cd: Implementacao-2-Threads: No such file or directory
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ls[K[Kcd
-[?2004l[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git add .cd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "[C[1P "[1P"[1P "[1P "[1P "[1P "[1P "[1P "[1P "[1P "[1P"[1P "[1P "[1P "[1P "[1P "[1P "[1P "[1P "[7mExecução Pthreads 2[27m "Execução Pthreads 2[1P[1@4push[Kcommit -m "4 rubrica, Execução Pthreads 2 "
-[?2004l[main cc2c97b] 4 rubrica, Execução Pthreads 2
+[?2004l
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "add .[Kdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit add .[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git add .cd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "[C[1P "[1P"[1P "[1P "[1P "[1P "[1P "[1P "[1P "[1P "[1P"[1P "[1P "[1P "[1P "[1P "[1P "[1P "[1P "[7mExecução Pthreads 2[27m "Execução Pthreads 2[1P[1@4push[Kcommit -m "4 rubrica, Execução Pthreads 2 "
+[?2004l
+[main cc2c97b] 4 rubrica, Execução Pthreads 2
  2 files changed, 116 insertions(+), 1 deletion(-)
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git commit -m "4 rubrica, Execução Pthreads 2 "add .[Kcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "push[K
-[?2004lEnumerating objects: 11, done.
-Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git commit -m "4 rubrica, Execução Pthreads 2 "add .[Kcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -o mandelbrot src/mandelbrot.c[22P./mandelbrotgcc -fopenmp -o mandelbrot src/mandelbrot.c./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Kwhoami[2Pdategit pushcommit -m "3 rubrica, Execução Pthreads 1 "push[K
+[?2004l
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)
+Counting objects:  18% (2/11)
+Counting objects:  27% (3/11)
+Counting objects:  36% (4/11)
+Counting objects:  45% (5/11)
+Counting objects:  54% (6/11)
+Counting objects:  63% (7/11)
+Counting objects:  72% (8/11)
+Counting objects:  81% (9/11)
+Counting objects:  90% (10/11)
+Counting objects: 100% (11/11)
+Counting objects: 100% (11/11), done.
 Delta compression using up to 8 threads
-Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
-Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.54 KiB | 786.00 KiB/s, done.
+Compressing objects:  20% (1/5)
+Compressing objects:  40% (2/5)
+Compressing objects:  60% (3/5)
+Compressing objects:  80% (4/5)
+Compressing objects: 100% (5/5)
+Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)
+Writing objects:  33% (2/6)
+Writing objects:  50% (3/6)
+Writing objects:  66% (4/6)
+Writing objects:  83% (5/6)
+Writing objects: 100% (6/6)
+Writing objects: 100% (6/6), 1.54 KiB | 786.00 KiB/s, done.
 Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: Resolving deltas:   0% (0/2)[K
+remote: Resolving deltas:  50% (1/2)[K
+remote: Resolving deltas: 100% (2/2)[K
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git
    137838c..cc2c97b  main -> main
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [H[2J]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git pushcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[K mvpb
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpbgit pushcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd mvpb[Kgit pushcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrot
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mrm -f falha.txt times.txt *.pgm[27mrm -f falha.txt times.txt *.pgm
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot 400 400 100 4[27m./mandelbrot 400 400 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mecho "codigo de saida: $?"[27mecho "codigo de saida: $?"
-[?2004lcodigo de saida: 0
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpbgit pushcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrotdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ gcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd mvpb[Kgit pushcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[K Implementacao-2-Threads[14P./mandelbrot
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrotgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mrm -f falha.txt times.txt *.pgm[27mrm -f falha.txt times.txt *.pgm
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot 400 400 100 4[27m./mandelbrot 400 400 100 4
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mecho "codigo de saida: $?"[27mecho "codigo de saida: $?"
+[?2004l
+codigo de saida: 0
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcat times.txt[27mcat times.txt
-[?2004l0.039270
+[?2004l
+0.039270
 0.021430
 0.021764
 0.014572
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mls *.pgm[27mls *.pgm
-[?2004l[0m[01;35mmandelbrot_mvpb_openmp.pgm[0m  [01;35mmandelbrot_mvpb_pthreads1.pgm[0m  [01;35mmandelbrot_mvpb_pthreads2.pgm[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [K]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot 400 400[27m./mandelbrot 400 400
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mecho "codigo de saida: $?"[27mecho "codigo de saida: $?"
-[?2004lcodigo de saida: 1
+[?2004l
+[0m[01;35mmandelbrot_mvpb_openmp.pgm[0m  [01;35mmandelbrot_mvpb_pthreads1.pgm[0m  [01;35mmandelbrot_mvpb_pthreads2.pgm[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ 
+[K
+]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot 400 400[27m./mandelbrot 400 400
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mecho "codigo de saida: $?"[27mecho "codigo de saida: $?"
+[?2004l
+codigo de saida: 1
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcat falha.txt[27mcat falha.txt
-[?2004lNumero de parametros incorretos passados
+[?2004l
+Numero de parametros incorretos passados
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot abc 400 100 4[27m./mandelbrot abc 400 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mecho "codigo de saida: $?"[27mecho "codigo de saida: $?"
-[?2004lcodigo de saida: 1
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mecho "codigo de saida: $?"[27mecho "codigo de saida: $?"
+[?2004l
+codigo de saida: 1
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcat falha.txt[27mcat falha.txt
-[?2004lNumero de parametros incorretos passados
+[?2004l
+Numero de parametros incorretos passados
 Entrada invalidada nos argumentos da largura
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot 5abc 400 100 4[27m./mandelbrot 5abc 400 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot -100 400 100 4[27m./mandelbrot -100 400 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot -100 400 100 45abc[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot 5abc 400 100 4-100[C[C[C[C[C[C[C[C[C[C5abc[C[C[C[C[C[C[C[C[C[C[14Pcat falha.txtecho "codigo de saida: $?"
-[?2004lcodigo de saida: 1
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot -100 400 100 4[27m./mandelbrot -100 400 100 4
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot -100 400 100 45abc[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot 5abc 400 100 4-100[C[C[C[C[C[C[C[C[C[C5abc[C[C[C[C[C[C[C[C[C[C[14Pcat falha.txtecho "codigo de saida: $?"
+[?2004l
+codigo de saida: 1
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ echo "codigo de saida: $?"./mandelbrot 5abc 400 100 4-100[C[C[C[C[C[C[C[C[C[C5abc[C[C[C[C[C[C[C[C[C[C[14Pcat falha.txt
-[?2004lNumero de parametros incorretos passados
+[?2004l
+Numero de parametros incorretos passados
 Entrada invalidada nos argumentos da largura
 Entrada invalidada nos argumentos da largura
 Numero da largura incorreto
 Entrada invalidada nos argumentos da largura
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cat falha.txtecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot 5abc 400 100 4[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4[1Pecho "codigo de saida: $?"
-[?2004lcodigo de saida: 1
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot 5abc 400 100 4[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4[1Pecho "codigo de saida: $?"
+[?2004l
+codigo de saida: 1
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ echo "codigo de saida: $?"./mandelbrot 5abc 400 100 4[1Pecho "codigo de saida: $?"[Kecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4[14Pcat falha.txt
-[?2004lNumero de parametros incorretos passados
+[?2004l
+Numero de parametros incorretos passados
 Entrada invalidada nos argumentos da largura
 Entrada invalidada nos argumentos da largura
 Numero da largura incorreto
 Entrada invalidada nos argumentos da largura
 Entrada invalidada nos argumentos da largura
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [K]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [K]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [K]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [K]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [K]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [K]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [H[2J]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mrm -f falha.txt[27mrm -f falha.txt
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot -100 400 100 4[27m./mandelbrot -100 400 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcat falha.txt[27mcat falha.txt
-[?2004lNumero da largura incorreto
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ 
+[K
+]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ 
+[K
+]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ 
+[K
+]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ 
+[K
+]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ 
+[K
+]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ 
+[K
+]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [H[2J]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mrm -f falha.txt[27mrm -f falha.txt
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot -100 400 100 4[27m./mandelbrot -100 400 100 4
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcat falha.txt[27mcat falha.txt
+[?2004l
+Numero da largura incorreto
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git commit -[K[K[K[K[K[K[K[K[K[K[K[Kgit add .cat falha.txt./mandelbrot -100 400 100 4[12Prm -f falha.txt[2Pcat[C[C[C[C[C[C[C[C[C[Cecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4-100[C[C[C[C[C[C[C[C[C[C5abc[C[C[C[C[C[C[C[C[C[C[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot abc 400 100 4[13Pcat falha.txtecho "codigo de saida: $?"[6P./mandelbrot 400 400[12Pls *.pgmcat times.txtecho "codigo de saida: $?"./mandelbrot 400 400 100 4rm -f falha.txt times.txt *.pgmgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd mvpb[Kgit pushcommit -m "4 rubrica, Execução Pthreads 2 "[C[1P[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P "[1P"[1P "[1P "[1P "[1P "[1P "[1P "[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[7mErros + Outras situações[27m"Erros + Outras situações"
-[?2004l[main 5974ae9] 5 rubrica, Erros + Outras situações
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git commit -[K[K[K[K[K[K[K[K[K[K[K[Kgit add .cat falha.txt./mandelbrot -100 400 100 4[12Prm -f falha.txt[2Pcat[C[C[C[C[C[C[C[C[C[Cecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4-100[C[C[C[C[C[C[C[C[C[C5abc[C[C[C[C[C[C[C[C[C[C[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot abc 400 100 4[13Pcat falha.txtecho "codigo de saida: $?"[6P./mandelbrot 400 400[12Pls *.pgmcat times.txtecho "codigo de saida: $?"./mandelbrot 400 400 100 4rm -f falha.txt times.txt *.pgmgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd mvpb[Kgit pushcommit -m "4 rubrica, Execução Pthreads 2 "[C[1P[1@5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P "[1P"[1P "[1P "[1P "[1P "[1P "[1P "[C[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[7mErros + Outras situações[27m"Erros + Outras situações"
+[?2004l
+[main 5974ae9] 5 rubrica, Erros + Outras situações
  3 files changed, 137 insertions(+), 8 deletions(-)
  create mode 100644 mvpb/falha.txt
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git commit -m "5 rubrica, Erros + Outras situações"add .[Kcat falha.txt./mandelbrot -100 400 100 4[12Prm -f falha.txt[2Pcat[C[C[C[C[C[C[C[C[C[Cecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4-100[C[C[C[C[C[C[C[C[C[C5abc[C[C[C[C[C[C[C[C[C[C[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot abc 400 100 4[13Pcat falha.txtecho "codigo de saida: $?"[6P./mandelbrot 400 400[12Pls *.pgmcat times.txtecho "codigo de saida: $?"./mandelbrot 400 400 100 4rm -f falha.txt times.txt *.pgmgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd mvpb[Kgit pushcommit -m "4 rubrica, Execução Pthreads 2 "push[K[1Pcd mvpbgit pushcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcommit -m "4 rubrica, Execução Pthreads 2 "push[Kcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcommit -m "4 rubrica, Execução Pthreads 2 "push[Kcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[17Pgit add .commit -m "4 rubrica, Execução Pthreads 2 "push[K[1Pcd mvpbgit push
-[?2004lEnumerating objects: 12, done.
-Counting objects:   8% (1/12)Counting objects:  16% (2/12)Counting objects:  25% (3/12)Counting objects:  33% (4/12)Counting objects:  41% (5/12)Counting objects:  50% (6/12)Counting objects:  58% (7/12)Counting objects:  66% (8/12)Counting objects:  75% (9/12)Counting objects:  83% (10/12)Counting objects:  91% (11/12)Counting objects: 100% (12/12)Counting objects: 100% (12/12), done.
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git commit -m "5 rubrica, Erros + Outras situações"add .[Kcat falha.txt./mandelbrot -100 400 100 4[12Prm -f falha.txt[2Pcat[C[C[C[C[C[C[C[C[C[Cecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot 5abc 400 100 4-100[C[C[C[C[C[C[C[C[C[C5abc[C[C[C[C[C[C[C[C[C[C[14Pcat falha.txtecho "codigo de saida: $?"./mandelbrot abc 400 100 4[13Pcat falha.txtecho "codigo de saida: $?"[6P./mandelbrot 400 400[12Pls *.pgmcat times.txtecho "codigo de saida: $?"./mandelbrot 400 400 100 4rm -f falha.txt times.txt *.pgmgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./mandelbrot[Kgcc -fopenmp -pthread -o mandelbrot src/mandelbrot.c
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd mvpb[Kgit pushcommit -m "4 rubrica, Execução Pthreads 2 "push[K[1Pcd mvpbgit pushcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcommit -m "4 rubrica, Execução Pthreads 2 "push[Kcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcommit -m "4 rubrica, Execução Pthreads 2 "push[Kcommit -m "4 rubrica, Execução Pthreads 2 "add .[Kcd Implementacao-2-Threads[17Pgit add .commit -m "4 rubrica, Execução Pthreads 2 "push[K[1Pcd mvpbgit push
+[?2004l
+Enumerating objects: 12, done.
+Counting objects:   8% (1/12)
+Counting objects:  16% (2/12)
+Counting objects:  25% (3/12)
+Counting objects:  33% (4/12)
+Counting objects:  41% (5/12)
+Counting objects:  50% (6/12)
+Counting objects:  58% (7/12)
+Counting objects:  66% (8/12)
+Counting objects:  75% (9/12)
+Counting objects:  83% (10/12)
+Counting objects:  91% (11/12)
+Counting objects: 100% (12/12)
+Counting objects: 100% (12/12), done.
 Delta compression using up to 8 threads
-Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
-Writing objects:  14% (1/7)Writing objects:  28% (2/7)Writing objects:  42% (3/7)Writing objects:  57% (4/7)Writing objects:  71% (5/7)Writing objects:  85% (6/7)Writing objects: 100% (7/7)Writing objects: 100% (7/7), 2.11 KiB | 432.00 KiB/s, done.
+Compressing objects:  20% (1/5)
+Compressing objects:  40% (2/5)
+Compressing objects:  60% (3/5)
+Compressing objects:  80% (4/5)
+Compressing objects: 100% (5/5)
+Compressing objects: 100% (5/5), done.
+Writing objects:  14% (1/7)
+Writing objects:  28% (2/7)
+Writing objects:  42% (3/7)
+Writing objects:  57% (4/7)
+Writing objects:  71% (5/7)
+Writing objects:  85% (6/7)
+Writing objects: 100% (7/7)
+Writing objects: 100% (7/7), 2.11 KiB | 432.00 KiB/s, done.
 Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+remote: Resolving deltas:   0% (0/2)[K
+remote: Resolving deltas:  50% (1/2)[K
+remote: Resolving deltas: 100% (2/2)[K
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
 To https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git
    cc2c97b..5974ae9  main -> main
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make clean
-[?2004lrm -rf src/output
+[?2004l
+rm -rf src/output
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make
-[?2004lmkdir -p src/output
+[?2004l
+mkdir -p src/output
 gcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o src/output/mandelbrot
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make test
-[?2004lcd src && ./output/mandelbrot 400 400 100 4
+[?2004l
+cd src && ./output/mandelbrot 400 400 100 4
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make test[K clean[2Pgit pushcommit -m "5 rubrica, Erros + Outras situações"add .[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .make test[K clean[2Pgit pushcommit -m "5 rubrica, Erros + Outras situações"push[Kcommit -m "5 rubrica, Erros + Outras situações"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"M"a"k"e"f"i"l"e"[C[1P[1@6
-[?2004l[main fa4dee8] 6 rubrica, Makefile
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .make test[K clean[2Pgit pushcommit -m "5 rubrica, Erros + Outras situações"push[Kcommit -m "5 rubrica, Erros + Outras situações"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"M"a"k"e"f"i"l"e"[C[1P[1@6
+[?2004l
+[main fa4dee8] 6 rubrica, Makefile
  7 files changed, 1630 insertions(+), 1 deletion(-)
  create mode 100644 mvpb/src/mandelbrot_mvpb_openmp.pgm
  create mode 100644 mvpb/src/mandelbrot_mvpb_pthreads1.pgm
@@ -873,115 +1194,221 @@ gcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o src/output/mandelbro
  create mode 100644 mvpb/src/mandelbrot_mvpb_serial.pgm
  create mode 100644 mvpb/src/times.txt
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git commit -m "6 rubrica, Makefile"add .[Kmake test[K clean[2Pgit push
-[?2004lEnumerating objects: 13, done.
-Counting objects:   7% (1/13)Counting objects:  15% (2/13)Counting objects:  23% (3/13)Counting objects:  30% (4/13)Counting objects:  38% (5/13)Counting objects:  46% (6/13)Counting objects:  53% (7/13)Counting objects:  61% (8/13)Counting objects:  69% (9/13)Counting objects:  76% (10/13)Counting objects:  84% (11/13)Counting objects:  92% (12/13)Counting objects: 100% (13/13)Counting objects: 100% (13/13), done.
+[?2004l
+Enumerating objects: 13, done.
+Counting objects:   7% (1/13)
+Counting objects:  15% (2/13)
+Counting objects:  23% (3/13)
+Counting objects:  30% (4/13)
+Counting objects:  38% (5/13)
+Counting objects:  46% (6/13)
+Counting objects:  53% (7/13)
+Counting objects:  61% (8/13)
+Counting objects:  69% (9/13)
+Counting objects:  76% (10/13)
+Counting objects:  84% (11/13)
+Counting objects:  92% (12/13)
+Counting objects: 100% (13/13)
+Counting objects: 100% (13/13), done.
 Delta compression using up to 8 threads
-Compressing objects:  14% (1/7)Compressing objects:  28% (2/7)Compressing objects:  42% (3/7)Compressing objects:  57% (4/7)Compressing objects:  71% (5/7)Compressing objects:  85% (6/7)Compressing objects: 100% (7/7)Compressing objects: 100% (7/7), done.
-Writing objects:  12% (1/8)Writing objects:  25% (2/8)Writing objects:  37% (3/8)Writing objects:  50% (4/8)Writing objects:  62% (5/8)Writing objects:  75% (6/8)Writing objects:  87% (7/8)Writing objects: 100% (8/8)Writing objects: 100% (8/8), 20.07 KiB | 2.01 MiB/s, done.
+Compressing objects:  14% (1/7)
+Compressing objects:  28% (2/7)
+Compressing objects:  42% (3/7)
+Compressing objects:  57% (4/7)
+Compressing objects:  71% (5/7)
+Compressing objects:  85% (6/7)
+Compressing objects: 100% (7/7)
+Compressing objects: 100% (7/7), done.
+Writing objects:  12% (1/8)
+Writing objects:  25% (2/8)
+Writing objects:  37% (3/8)
+Writing objects:  50% (4/8)
+Writing objects:  62% (5/8)
+Writing objects:  75% (6/8)
+Writing objects:  87% (7/8)
+Writing objects: 100% (8/8)
+Writing objects: 100% (8/8), 20.07 KiB | 2.01 MiB/s, done.
 Total 8 (delta 1), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+remote: Resolving deltas:   0% (0/1)[K
+remote: Resolving deltas: 100% (1/1)[K
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
 To https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git
    5974ae9..fa4dee8  main -> main
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ mkae[K[K[Kake clean
-[?2004lrm -f mandelbrot
+[?2004l
+rm -f mandelbrot
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make
-[?2004lgcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o mandelbrot
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make test
-[?2004l./mandelbrot 400 400 100 4
+[?2004l
+./mandelbrot 400 400 100 4
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ls[K[Kls
-[?2004lMakefile        falha.txt   [0m[01;35mmandelbrot_mvpb_openmp.pgm[0m     [01;35mmandelbrot_mvpb_pthreads2.pgm[0m  [01;34msrc[0m
+[?2004l
+Makefile        falha.txt   [0m[01;35mmandelbrot_mvpb_openmp.pgm[0m     [01;35mmandelbrot_mvpb_pthreads2.pgm[0m  [01;34msrc[0m
 evidencias.log  [01;32mmandelbrot[0m  [01;35mmandelbrot_mvpb_pthreads1.pgm[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m     times.txt
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd [7mImplementacao-2-Threads[27mImplementacao-2-Threads
-[?2004lbash: cd: Implementacao-2-Threads: No such file or directory
+[?2004l
+bash: cd: Implementacao-2-Threads: No such file or directory
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .cd Implementacao-2-Threadsls[Kmake test[K clean[2Pgit pushcommit -m "6 rubrica, Makefile"add .[Kcommit -m "6 rubrica, Makefile" "[1P"," "c"o"r"r"e"c"a"o"
-[?2004l[main 56be3f7] 6 rubrica, Makefile, correcao
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ git add .cd Implementacao-2-Threadsls[Kmake test[K clean[2Pgit pushcommit -m "6 rubrica, Makefile"add .[Kcommit -m "6 rubrica, Makefile" "[1P"," "c"o"r"r"e"c"a"o"
+[?2004l
+[main 56be3f7] 6 rubrica, Makefile, correcao
  7 files changed,Script started on 2026-08-31 20:38:48-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="148" LINES="35"]
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ date
-[?2004lMon Aug 31 20:38:55 -03 2026
+[?2004l
+Mon Aug 31 20:38:55 -03 2026
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ whoami
-[?2004lmarcus
+[?2004l
+marcus
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwd
-[?2004l/home/marcus/Implementacao-2-Threads/mvpb
+[?2004l
+/home/marcus/Implementacao-2-Threads/mvpb
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwdwhoami[2Pdate./mandelbrot 100000 100000 100 4
-[?2004lSegmentation fault (core dumped)
+[?2004l
+Segmentation fault (core dumped)
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ls[K[Kcd
-[?2004l[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd Implementacao-2-Threads[K./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushcommit -m "6 rubrica, Makefile, correcao"add .[K
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git add .cd Implementacao-2-Threads[K./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushcommit -m "6 rubrica, Makefile, correcao"V"2"[C[C[C[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1PcorrecaoV2"[1P correcaoV2", correcaoV2"[C[1P[C[1P
-[?2004l[main e3c405c] rubrica, correcaoV2
+[?2004l
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd Implementacao-2-Threads[K./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushcommit -m "6 rubrica, Makefile, correcao"add .[K
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git add .cd Implementacao-2-Threads[K./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushcommit -m "6 rubrica, Makefile, correcao"V"2"[C[C[C[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1P correcaoV2"[1PcorrecaoV2"[1P correcaoV2", correcaoV2"[C[1P[C[1P
+[?2004l
+[main e3c405c] rubrica, correcaoV2
  2 files changed, 123 insertions(+), 11 deletions(-)
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git commit -m "rubrica, correcaoV2"add .[Kcd Implementacao-2-Threads[K./mandelbrot 100000 100000 100 4pwd[K./mandelbrot 100000 100000 100 4cd[K Implementacao-2-Threads[17Pgit add .commit -m "rubrica, correcaoV2"[Kgit commit -m "rubrica, correcaoV2"add .[Kcd Implementacao-2-Threads[K./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushcommit -m "6 rubrica, Makefile, correcao"push[K
-[?2004lEnumerating objects: 11, done.
-Counting objects:   9% (1/11)Counting objects:  18% (2/11)Counting objects:  27% (3/11)Counting objects:  36% (4/11)Counting objects:  45% (5/11)Counting objects:  54% (6/11)Counting objects:  63% (7/11)Counting objects:  72% (8/11)Counting objects:  81% (9/11)Counting objects:  90% (10/11)Counting objects: 100% (11/11)Counting objects: 100% (11/11), done.
+[?2004l
+Enumerating objects: 11, done.
+Counting objects:   9% (1/11)
+Counting objects:  18% (2/11)
+Counting objects:  27% (3/11)
+Counting objects:  36% (4/11)
+Counting objects:  45% (5/11)
+Counting objects:  54% (6/11)
+Counting objects:  63% (7/11)
+Counting objects:  72% (8/11)
+Counting objects:  81% (9/11)
+Counting objects:  90% (10/11)
+Counting objects: 100% (11/11)
+Counting objects: 100% (11/11), done.
 Delta compression using up to 8 threads
-Compressing objects:  20% (1/5)Compressing objects:  40% (2/5)Compressing objects:  60% (3/5)Compressing objects:  80% (4/5)Compressing objects: 100% (5/5)Compressing objects: 100% (5/5), done.
-Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 1.71 KiB | 583.00 KiB/s, done.
+Compressing objects:  20% (1/5)
+Compressing objects:  40% (2/5)
+Compressing objects:  60% (3/5)
+Compressing objects:  80% (4/5)
+Compressing objects: 100% (5/5)
+Compressing objects: 100% (5/5), done.
+Writing objects:  16% (1/6)
+Writing objects:  33% (2/6)
+Writing objects:  50% (3/6)
+Writing objects:  66% (4/6)
+Writing objects:  83% (5/6)
+Writing objects: 100% (6/6)
+Writing objects: 100% (6/6), 1.71 KiB | 583.00 KiB/s, done.
 Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas:   0% (0/3)[Kremote: Resolving deltas:  33% (1/3)[Kremote: Resolving deltas:  66% (2/3)[Kremote: Resolving deltas: 100% (3/3)[Kremote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
+remote: Resolving deltas:   0% (0/3)[K
+remote: Resolving deltas:  33% (1/3)[K
+remote: Resolving deltas:  66% (2/3)[K
+remote: Resolving deltas: 100% (3/3)[K
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.[K
 To https://github.com/MarcusBarbosa-web/Implementacao-2-Threads.git
    56be3f7..e3c405c  main -> main
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ git pushcommit -m "rubrica, correcaoV2"add .[Kcd Implementacao-2-Threads[K./mandelbrot 100000 100000 100 4
-[?2004lbash: ./mandelbrot: No such file or directory
+[?2004l
+bash: ./mandelbrot: No such file or directory
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd mvpb
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpb./mandelbrot 100000 100000 100 4
-[?2004lSegmentation fault (core dumped)
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd mvpb./mandelbrot 100000 100000 100 4
+[?2004l
+Segmentation fault (core dumped)
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make clean
-[?2004lrm -f mandelbrot
+[?2004l
+rm -f mandelbrot
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make
-[?2004lgcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o mandelbrot
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make clean./mandelbrot 100000 100000 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mecho "codigo de saida: $?"[27mecho "codigo de saida: $?"
-[?2004lcodigo de saida: 1
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mecho "codigo de saida: $?"[27mecho "codigo de saida: $?"
+[?2004l
+codigo de saida: 1
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ falha.txt
-[?2004lfalha.txt: command not found
+[?2004l
+falha.txt: command not found
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cat g[Kfalha.txt
-[?2004lNumero da largura incorreto
+[?2004l
+Numero da largura incorreto
 Falha em alocar memoria
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cat falha.txt[4Pfalha.txtecho "codigo de saida: $?"./mandelbrot 100000 100000 100 4make[K clean./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4git push[Kcommit -m "rubrica, correcaoV2"add .[Kcd Implementacao-2-Threads[K./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushcommit -m "6 rubrica, Makefile, correcao"add .[Kcd Implementacao-2-Threads[17Pgit add .commit -m "6 rubrica, Makefile, correcao"push[Kls[Kcd Implementacao-2-Threadsode .[K./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4date[Kwhoami[3Ppwd./mandelbrot 100000 100000 100 4cd[K Implementacao-2-Threads[17Pgit add .commit -m "rubrica, correcaoV2"push[K./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4make clean[K[K./mandelbrot 100000 100000 100 4[6Pecho "codigo de saida: $?"[17Pfalha.txtcat falha.txt[K[7mscript -a evidencias.log[27mscript -a evidencias.log
-[?2004lScript started, output log file is 'evidencias.log'.
+[?2004l
+Script started, output log file is 'evidencias.log'.
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ date
-[?2004lMon Aug 31 23:09:39 -03 2026
+[?2004l
+Mon Aug 31 23:09:39 -03 2026
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ whoami
-[?2004lmarcus
+[?2004l
+marcus
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwd
-[?2004l/home/marcus/Implementacao-2-Threads/mvpb
+[?2004l
+/home/marcus/Implementacao-2-Threads/mvpb
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwdwhoami[2Pdate./mandelbrot 100000 100000 100 4date[K./mandelbrot 100000 100000 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushls[Kcd Implementacao-2-Threadsode .[K./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4date[Kwhoami[3Ppwd./mandelbrot 100000 100000 100 4[K[7m echo "codigo de saida: $?"[27m echo "codigo de saida: $?"
-[?2004lcodigo de saida: 1
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushls[Kcd Implementacao-2-Threadsode .[K./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4date[Kwhoami[3Ppwd./mandelbrot 100000 100000 100 4[K[7m echo "codigo de saida: $?"[27m echo "codigo de saida: $?"
+[?2004l
+codigo de saida: 1
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cat falha.txt
-[?2004lNumero da largura incorreto
+[?2004l
+Numero da largura incorreto
 Falha em alocar memoria
 Falha em alocar memoria
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd [7mImplementacao-2-Threads[27mImplementacao-2-Threads
-[?2004lbash: cd: Implementacao-2-Threads: No such file or directory
+[?2004l
+bash: cd: Implementacao-2-Threads: No such file or directory
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd
-[?2004l[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mtar -cvf mvpb.tar mvpb/[27mtar -cvf mvpb.tar mvpb/
-[?2004lmvpb/
+[?2004l
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mtar -cvf mvpb.tar mvpb/[27mtar -cvf mvpb.tar mvpb/
+[?2004l
+mvpb/
 mvpb/mandelbrot_mvpb_pthreads2.pgm
 mvpb/mandelbrot_mvpb_pthreads1.pgm
 mvpb/mandelbrot
 mvpb/fScript started on 2026-08-31 23:09:35-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="148" LINES="35"]
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ date
-[?2004lMon Aug 31 23:09:39 -03 2026
+[?2004l
+Mon Aug 31 23:09:39 -03 2026
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ whoami
-[?2004lmarcus
+[?2004l
+marcus
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwd
-[?2004l/home/marcus/Implementacao-2-Threads/mvpb
+[?2004l
+/home/marcus/Implementacao-2-Threads/mvpb
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ pwdwhoami[2Pdate./mandelbrot 100000 100000 100 4date[K./mandelbrot 100000 100000 100 4
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushls[Kcd Implementacao-2-Threadsode .[K./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4date[Kwhoami[3Ppwd./mandelbrot 100000 100000 100 4[K[7m echo "codigo de saida: $?"[27m echo "codigo de saida: $?"
-[?2004lcodigo de saida: 1
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ ./mandelbrot 100000 100000 100 4pwd[Kwhoami[2Pdate./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4code .[Kd Implementacao-2-Threadsls[Kgit pushls[Kcd Implementacao-2-Threadsode .[K./mandelbrot 100000 100000 100 4cd mvpb[K./mandelbrot 100000 100000 100 4date[Kwhoami[3Ppwd./mandelbrot 100000 100000 100 4[K[7m echo "codigo de saida: $?"[27m echo "codigo de saida: $?"
+[?2004l
+codigo de saida: 1
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cat falha.txt
-[?2004lNumero da largura incorreto
+[?2004l
+Numero da largura incorreto
 Falha em alocar memoria
 Falha em alocar memoria
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd [7mImplementacao-2-Threads[27mImplementacao-2-Threads
-[?2004lbash: cd: Implementacao-2-Threads: No such file or directory
+[?2004l
+bash: cd: Implementacao-2-Threads: No such file or directory
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cd
-[?2004l[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
-[?2004l[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mtar -cvf mvpb.tar mvpb/[27mtar -cvf mvpb.tar mvpb/
-[?2004lmvpb/
+[?2004l
+[?2004h]0;marcus@Antonio: ~[01;32mmarcus@Antonio[00m:[01;34m~[00m$ cd [7mImplementacao-2-Threads[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CImplementacao-2-Threads
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mtar -cvf mvpb.tar mvpb/[27mtar -cvf mvpb.tar mvpb/
+[?2004l
+mvpb/
 mvpb/mandelbrot_mvpb_pthreads2.pgm
 mvpb/mandelbrot_mvpb_pthreads1.pgm
 mvpb/mandelbrot
@@ -994,10 +1421,12 @@ mvpb/src/mandelbrot.c
 mvpb/evidencias.log
 mvpb/mandelbrot_mvpb_openmp.pgm
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ ls mvpb/
-[?2004lMakefile        falha.txt   [0m[01;35mmandelbrot_mvpb_openmp.pgm[0m     [01;35mmandelbrot_mvpb_pthreads2.pgm[0m  [01;34msrc[0m
+[?2004l
+Makefile        falha.txt   [0m[01;35mmandelbrot_mvpb_openmp.pgm[0m     [01;35mmandelbrot_mvpb_pthreads2.pgm[0m  [01;34msrc[0m
 evidencias.log  [01;32mmandelbrot[0m  [01;35mmandelbrot_mvpb_pthreads1.pgm[0m  [01;35mmandelbrot_mvpb_serial.pgm[0m     times.txt
 [?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [7mtar -tvf mvpb.tar[27mtar -tvf mvpb.tar
-[?2004ldrwxr-xr-x marcus/marcus     0 2026-08-31 22:52 mvpb/
+[?2004l
+drwxr-xr-x marcus/marcus     0 2026-08-31 22:52 mvpb/
 -rw-r--r-- marcus/marcus 422493 2026-08-30 17:55 mvpb/mandelbrot_mvpb_pthreads2.pgm
 -rw-r--r-- marcus/marcus 422493 2026-08-30 17:55 mvpb/mandelbrot_mvpb_pthreads1.pgm
 -rwxr-xr-x marcus/marcus  72776 2026-08-31 22:52 mvpb/mandelbrot
@@ -1009,7 +1438,70 @@ drwxr-xr-x marcus/marcus      0 2026-08-30 17:44 mvpb/src/
 -rw-r--r-- marcus/marcus  12721 2026-08-31 21:49 mvpb/src/mandelbrot.c
 -rw-r--r-- marcus/marcus 147456 2026-08-31 23:21 mvpb/evidencias.log
 -rw-r--r-- marcus/marcus 422493 2026-08-30 17:55 mvpb/mandelbrot_mvpb_openmp.pgm
-[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ [?2004l
+
 exit
 
 Script done on 2026-08-31 23:26:10-03:00 [COMMAND_EXIT_CODE="0"]
+
+Script started on 2026-09-02 16:53:04-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cat times.txtdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[39P./mandelbrot 10 6 40 4[9Pcat times.txtdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm1.pgm[3Popenmp.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake test[K[K clean[3Pcd mvpb[4Ppwdwhoami[2Pdate
+[?2004l
+Wed Sep  2 16:53:14 -03 2026
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ datecat times.txtdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[39P./mandelbrot 10 6 40 4[9Pcat times.txtdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm1.pgm[3Popenmp.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake test[K[K clean[3Pcd mvpb[4Ppwdwhoami
+[?2004l
+marcus
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ whoami[2Pdatecat times.txtdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[39P./mandelbrot 10 6 40 4[9Pcat times.txtdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm1.pgm[3Popenmp.pgm
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake test[K[K clean[3Pcd mvpb[4Ppwdwhoami[2Pdatescript -a evidencias.logdate[Kscript -a evidencias.log[11Pcat falha.txt[4Pfalha.txtecho "codigo de saida: $?"./mandelbrot 100000 100000 100 4[6Pecho "codigo de saida: $?"[17Pfalha.txtcat falha.txtscript -a evidencias.logdate[Kwhoami[3Ppwd
+[?2004l
+/home/marcus/Implementacao-2-Threads
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads[00m$ cd mvpb
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make clean
+[?2004l
+rm -f mandelbrot mandelbrot_*.pgm times.txt falha.txt
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make
+[?2004l
+gcc -Wall -Wextra -g3 -fopenmp -pthread src/mandelbrot.c -o mandelbrot
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make e[Ktest
+[?2004l
+./mandelbrot 400 400 100 4
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_openmp.pgm
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads1.pgm
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mcat times.txt[27mcat times.txt
+[?2004l
+0.067903
+0.036128
+0.036323
+0.007583
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7m./mandelbrot 10 6 40 4[27m./mandelbrot 10 6 40 4
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [7mdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm[27m
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdiff mandelbrot_mvpb_serial.pgm mandelbrot_mvpb_pthreads2.pgm
+[?2004l
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ cat times.txt
+[?2004l
+0.000021
+0.008251
+0.003436
+0.000719
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ make clean
+[?2004l
+rm -f mandelbrot mandelbrot_*.pgm times.txt falha.txt
+[?2004h]0;marcus@Antonio: ~/Implementacao-2-Threads/mvpb[01;32mmarcus@Antonio[00m:[01;34m~/Implementacao-2-Threads/mvpb[00m$ [?2004l
+
+exit
+
+Script done on 2026-09-02 16:56:14-03:00 [COMMAND_EXIT_CODE="0"]
